@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+ div.content
+    div.login__box
+     div.login
+       h1= title
+     
+       if errors.errors !== undefined
+         each message in errors.errors
+           p=message
+     
+       form(method='post') 
+         p
+           label PL
+           input(type='text' name='title' value=body.title || '' )
+     
+         p 
+           label ANG
+           textarea(name='description')=body.description || ''
+         p
+           input(type='submit' value='Zapisz')
+

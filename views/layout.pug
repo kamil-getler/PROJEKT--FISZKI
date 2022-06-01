@@ -1,0 +1,19 @@
+doctype html
+mixin item(title, url)
+  li(class='list-item')
+    a(href=url class=`item ${path == url ? 'active' : ''}`)=title
+
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/content.css')
+    link(rel='stylesheet', href='/stylesheets/admin.css')
+  body
+    nav
+      ul.layout
+        +item('Strona główna', '/') 
+        +item('Moje Fiszki', '/news') 
+        +item('Admin', '/admin') 
+
+    block content

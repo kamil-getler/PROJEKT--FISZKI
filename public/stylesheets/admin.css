@@ -1,0 +1,23 @@
+.table {
+    border: 2px solid black;
+    background: rgb(149, 150, 168);
+    color: rgb(32, 51, 51);
+    list-style: none;
+    font-size: 3em;
+}
+
+.line {
+    border: 2px solid black;
+    background: rgb(145, 158, 216);
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.line__dodaj {
+    font-size: 2em;
+}

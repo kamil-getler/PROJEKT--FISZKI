@@ -1,0 +1,46 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("../img/map-of-the-world-2401458_1920.jpg");
+    background-repeat: no-repeat;
+}
+
+.content__img {
+    width: 70%;
+    height: 70%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 70vw 70vh;
+}
+
+.content__h1 {
+    color: rgb(255, 255, 255);
+    font-size: 15vw;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.content__p {
+    background: rgba(255, 255, 255, 0.829);
+    color: rgb(8, 11, 56);
+    font-size: 5em;
+    margin: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.login__box {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.527);
+}
+
+.login {
+    color: black;
+}

@@ -1,0 +1,24 @@
+extends ../layout
+
+block content
+  h1= title
+  nav
+    ul
+      li.line__dodaj.line
+        a(href='/admin/news/add') Dodaj nowe słówko ...
+        
+  table.table
+    tr
+      th id
+      th tytuł
+      th akcja
+    each item, index in data
+      tr.line
+        td=index
+        td=item.title
+        //- td=item.created
+        td
+          a(href=`/admin/news/delete/${item._id}`) Usuń
+      
+          
+    
