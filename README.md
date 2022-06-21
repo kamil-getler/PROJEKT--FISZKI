@@ -1,5 +1,5 @@
 
-***ProjektFiszki.pdf -DOKUMENTACJA PROJEKTU
+*** ProjektFiszki.pdf -DOKUMENTACJA PROJEKTU
 
 
 
